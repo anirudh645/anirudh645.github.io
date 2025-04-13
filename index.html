@@ -180,7 +180,7 @@
                     <button id="showCertificate">Show Certificate</button>
 
                     <div id="certificateBox" class="hidden">
-                        <iframe id="certificatePdf" src="" width="500" height="600"></iframe>
+                        <img id="certificateImage" src="" alt="Certificate Screenshot">
                         <button id="closeCertificate">Close</button>
                     </div>
 
@@ -535,13 +535,15 @@
     const showCertificateButton = document.getElementById('showCertificate');
         const certificateBox = document.getElementById('certificateBox');
         const closeCertificateButton = document.getElementById('closeCertificate');
-        const certificatePdf = document.getElementById('certificatePdf');
+        const certificateImage = document.getElementById('certificateImage');
+
         showCertificateButton.addEventListener('click', () => {
-            certificatePdf.src = 'https://github.com/anirudh645/anirudh645.github.io/blob/main/Documents/L4G_Technical_Support.PDF'; // Replace with your PDF path
+            certificateImage.src = 'images/Certificates/L4G_Technical_Internship.png'; 
             certificateBox.classList.remove('hidden');
         });
+
         closeCertificateButton.addEventListener('click', () => {
-            certificatePdf.src = ''; // Clear the PDF source
+            certificateImage.src = ''; // Clear the image source
             certificateBox.classList.add('hidden');
         });
 </script>

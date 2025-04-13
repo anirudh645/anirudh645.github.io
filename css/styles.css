@@ -4758,7 +4758,7 @@ input[type="button"].btn--primary:focus {
     z-index: 1000;
 }
 
-iframe {
-    width: 90vw;
-    height: 80vh;
+img {
+    max-width: 85vw;
+    max-height: 75vh;
 }
