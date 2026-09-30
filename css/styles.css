@@ -2893,6 +2893,15 @@ input[type="button"].btn--primary:focus {
     transition: all .5s;
 }
 
+.site-update-notice {
+    margin: 0;
+    border-radius: 0;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    text-align: center;
+    z-index: 101;
+}
+
 /* -------------------------------------------------------------------
  * ## pagination 
  * ------------------------------------------------------------------- */
